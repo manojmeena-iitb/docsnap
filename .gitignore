@@ -1,0 +1,19 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
+
+# Virtual environments
+.venv
+
+# Secrets (API keys) — never commit
+.env
+
+# Real personal receipts — never commit
+data/private/
+
+# Mac system files
+.DS_Store
