@@ -52,7 +52,7 @@ If any check fails: ask the AI once more, telling it what failed. If it still fa
 
 ## Accuracy report (evals)
 - Test set: 30 Indian invoices with known correct answers ("ground truth"). Every answer is checked against the document: read twice, close-ups for unclear values, sums tested. A person's check is recorded separately (`checked_by_hand`). Sources and links: `data/SOURCES.md`.
-  - ~20 made by our own script: several layouts, correct by construction, ~5 with different deliberate mistakes (wrong total, wrong item maths, invalid GSTIN, impossible date)
+  - 20 made by our own script: several layouts, correct by construction, 5 with one deliberate mistake each (wrong total, wrong item maths, invalid GSTIN, impossible date, service charge left out of the total)
   - ~10 real invoices published on the public web (linked and downloaded by script, not stored in this repo)
 - A field is scored only if it appears on the document and can be read for certain; fields listed in `_meta.not_labelled` are skipped. DocSnap must never invent a value that is not printed.
 - Report: accuracy per field, % of documents fully correct, % flagged "needs review", cost per document, time per document.

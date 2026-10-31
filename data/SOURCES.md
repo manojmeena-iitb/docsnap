@@ -2,8 +2,26 @@
 
 DocSnap is tested on two kinds of Indian invoices:
 
-1. **Generated invoices** (~20): made by our own script, so the correct answers are known exactly.
+1. **Generated invoices** (20): made by our own script, so the correct answers are known exactly.
 2. **Real invoices** (10, listed below): published on the public web by the institutions that received them.
+
+## Generated invoices
+
+[`scripts/make_sample_invoices.py`](../scripts/make_sample_invoices.py) draws 20 bills and writes each answer key from the same numbers, so the keys are correct by construction. Every run makes identical files. Names, addresses and GSTINs are made up; any match with a real business is accidental.
+
+```bash
+uv run python scripts/make_sample_invoices.py
+```
+
+| Kind | Bills | What it tests |
+|---|---|---|
+| GST tax invoice, same state (CGST + SGST) | gen_01–03, gen_16 | Two GST rates, discount before tax, a service invoice, Tally-style tax table |
+| GST tax invoice, other state (IGST) | gen_04–06, gen_17 | Taxed freight, totals in lakhs, an old balance printed under the total |
+| Shop bill, prices include GST (MRP) | gen_07–09, gen_19 | GST shown inside the price, a "You saved" line |
+| Restaurant bill | gen_10–13, gen_18, gen_20 | Service charge with GST on it, discount, round-off |
+| Bill of supply (no GST) | gen_14–15 | No tax printed |
+
+Eight are pictures of printed pages (tilted, grainy JPEGs); the rest are digital PDFs. Five carry one deliberate mistake each and should come out as "needs review": a wrong total (gen_16), an item amount with two digits swapped (gen_17), a malformed GSTIN (gen_18), the impossible date 31/04/2025 (gen_19), and a service charge left out of the total (gen_20).
 
 ## Real invoices
 
