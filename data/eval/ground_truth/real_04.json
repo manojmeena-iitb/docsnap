@@ -1,0 +1,150 @@
+{
+  "vendor_name": "Aryan Enterprises",
+  "invoice_number": "2546",
+  "invoice_date": "2024-01-19",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Pvc Wire 2.5mm 180 Mtr Red (Kei)",
+      "quantity": 4.0,
+      "unit_price": 3919.5,
+      "amount": 15678.0
+    },
+    {
+      "description": "Pvc Wire 2.5mm 180 Mtr Black (Kei)",
+      "quantity": 4.0,
+      "unit_price": 3919.5,
+      "amount": 15678.0
+    },
+    {
+      "description": "Pvc Wire 4mm 180 Mtr Red (Kei)",
+      "quantity": 3.0,
+      "unit_price": 5755.5,
+      "amount": 17266.5
+    },
+    {
+      "description": "Pvc Wire 4mm 180 Mtr Black (Kei)",
+      "quantity": 6.0,
+      "unit_price": 5755.5,
+      "amount": 34533.0
+    },
+    {
+      "description": "Pvc Wire 1mm 180 Mtr Blue (Kei)",
+      "quantity": 10.0,
+      "unit_price": 1620.0,
+      "amount": 16200.0
+    },
+    {
+      "description": "MSG Box 8x3 (6Mod)",
+      "quantity": 50.0,
+      "unit_price": 40.0,
+      "amount": 2000.0
+    },
+    {
+      "description": "MSG Box 10 X3 (8 Mod) Metal",
+      "quantity": 20.0,
+      "unit_price": 45.0,
+      "amount": 900.0
+    },
+    {
+      "description": "PVC PIPE 32MM AKG (M)",
+      "quantity": 450.0,
+      "unit_price": 47.3,
+      "amount": 11068.2
+    },
+    {
+      "description": "PVC PIPE 25MM (M) Pioneer",
+      "quantity": 750.0,
+      "unit_price": 17.0,
+      "amount": 12750.0
+    },
+    {
+      "description": "PVC PIPE 25MM (H) Pioneer",
+      "quantity": 750.0,
+      "unit_price": 20.0,
+      "amount": 15000.0
+    },
+    {
+      "description": "PVC BEND 25MM",
+      "quantity": 500.0,
+      "unit_price": 6.5,
+      "amount": 3250.0
+    },
+    {
+      "description": "METAL FAN BOX 6\"",
+      "quantity": 50.0,
+      "unit_price": 40.0,
+      "amount": 2000.0
+    },
+    {
+      "description": "J.BOXES 25MM Deep",
+      "quantity": 150.0,
+      "unit_price": 30.0,
+      "amount": 4500.0
+    },
+    {
+      "description": "Pvc Circle Cable Clip 25mm",
+      "quantity": 1000.0,
+      "unit_price": 2.0,
+      "amount": 2000.0
+    },
+    {
+      "description": "Pvc Circle Cable Clip 32mm",
+      "quantity": 500.0,
+      "unit_price": 6.5,
+      "amount": 3250.0
+    },
+    {
+      "description": "Pvc Wire 4mm 100 Mtr Red (Kei)",
+      "quantity": 6.0,
+      "unit_price": 3198.0,
+      "amount": 19188.0
+    },
+    {
+      "description": "Pvc Wire 2.5mm 100 Mtr Red (Kei)",
+      "quantity": 11.0,
+      "unit_price": 2178.0,
+      "amount": 23958.0
+    },
+    {
+      "description": "Pvc Wire 2.5mm 100 Mtr Black (Kei)",
+      "quantity": 9.0,
+      "unit_price": 2178.0,
+      "amount": 19602.0
+    },
+    {
+      "description": "Pvc Wire 1mm 100 Mtr Yellow (Kei)",
+      "quantity": 10.0,
+      "unit_price": 900.0,
+      "amount": 9000.0
+    },
+    {
+      "description": "Pvc Wire 0.75mm 100 Mtr Green (Kei)",
+      "quantity": 9.0,
+      "unit_price": 688.0,
+      "amount": 6192.0
+    },
+    {
+      "description": "Freight Outward",
+      "quantity": null,
+      "unit_price": null,
+      "amount": 1200.0
+    }
+  ],
+  "subtotal": 235213.7,
+  "discount": null,
+  "service_charge": null,
+  "tax": 42338.5,
+  "total": 277552.0,
+  "vendor_gstin": "09AAGFA5022L1ZH",
+  "expected_status": "ok",
+  "_meta": {
+    "source": "Published by Axis Institute of Higher Education, Kanpur (NAAC evidence); link in data/real_sources.json",
+    "licence": "Copyright of the publisher; file not stored in this repo",
+    "original_id": "real_04, page(s) 1-2",
+    "kind": "scan_many_items_2_pages",
+    "checked_by_hand": false,
+    "draft_note": "Items on page 1, total on page 2. Freight Outward (1,200) is taxed, so it is a line item; subtotal = printed taxable value 2,35,213.70. Item 8 has a 48% line discount (amount printed after it). Items 16 and 20 are smudged; 19,188 and 6,192 confirmed by quantity x rate. Round-off -0.20.",
+    "review": "Read twice on 2026-10-31, with close-ups for unclear values; sums tested. Not yet confirmed by a person."
+  }
+}

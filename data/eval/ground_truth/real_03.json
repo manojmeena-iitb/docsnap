@@ -1,0 +1,30 @@
+{
+  "vendor_name": "Bharti Airtel Ltd",
+  "invoice_number": "BBL332312B018178",
+  "invoice_date": "2022-12-14",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "300 Mbps Unmanaged Internet Lease Line",
+      "quantity": null,
+      "unit_price": null,
+      "amount": 200000.0
+    }
+  ],
+  "subtotal": 200000.0,
+  "discount": null,
+  "service_charge": null,
+  "tax": 36000.0,
+  "total": 236000.0,
+  "vendor_gstin": "33AAACB2894G1ZU",
+  "expected_status": "ok",
+  "_meta": {
+    "source": "Published by Velammal College of Engineering & Technology, Madurai (NAAC evidence); link in data/real_sources.json",
+    "licence": "Copyright of the publisher; file not stored in this repo",
+    "original_id": "real_03, page(s) 1-2",
+    "kind": "digital_telecom_2_pages",
+    "checked_by_hand": false,
+    "draft_note": "Vendor GSTIN is in the footer. Page 2 also prints Annual Charges 8,00,000: a trap, not the invoice amount. Line item amount = Current Charges 2,00,000.",
+    "review": "Read twice on 2026-10-31, with close-ups for unclear values; sums tested. Not yet confirmed by a person."
+  }
+}

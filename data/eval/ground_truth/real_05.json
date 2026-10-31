@@ -1,0 +1,30 @@
+{
+  "vendor_name": "North Point Services Private Limited",
+  "invoice_number": "NPS/21-22/1041",
+  "invoice_date": "2022-01-21",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Internet Broadband SME",
+      "quantity": null,
+      "unit_price": null,
+      "amount": 14406.78
+    }
+  ],
+  "subtotal": 14406.78,
+  "discount": null,
+  "service_charge": null,
+  "tax": 2593.22,
+  "total": 17000.0,
+  "vendor_gstin": "24AAFCN3566J1ZA",
+  "expected_status": "ok",
+  "_meta": {
+    "source": "Published by R. R. Mehta College of Science & C. L. Parikh College of Commerce, Palanpur (NAAC evidence); link in data/real_sources.json",
+    "licence": "Copyright of the publisher; file not stored in this repo",
+    "original_id": "real_05, page(s) 2",
+    "kind": "scan_handwriting",
+    "checked_by_hand": false,
+    "draft_note": "Handwritten notes below the invoice are not part of it.",
+    "review": "Read twice on 2026-10-31, with close-ups for unclear values; sums tested. Not yet confirmed by a person."
+  }
+}

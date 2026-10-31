@@ -17,3 +17,12 @@ data/private/
 
 # Mac system files
 .DS_Store
+
+# Downloaded source files (not ours to republish; fetched by scripts)
+data/raw/
+
+# Real web invoices: downloaded by scripts/fetch_real_invoices.py, never committed
+data/eval/docs/real_*
+
+# Local review page (generated)
+data/eval/review.html

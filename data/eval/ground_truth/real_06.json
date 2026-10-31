@@ -1,0 +1,30 @@
+{
+  "vendor_name": "Quadrant Televentures Limited",
+  "invoice_number": "PUN18000115809",
+  "invoice_date": "2023-03-02",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Current Period Charges",
+      "quantity": null,
+      "unit_price": null,
+      "amount": 58333.33
+    }
+  ],
+  "subtotal": 58333.33,
+  "discount": null,
+  "service_charge": null,
+  "tax": 10500.0,
+  "total": 68833.33,
+  "vendor_gstin": "03AABCT2862R1ZZ",
+  "expected_status": "ok",
+  "_meta": {
+    "source": "Published by Sant Baba Bhag Singh University, Jalandhar (NAAC evidence); link in data/real_sources.json",
+    "licence": "Copyright of the publisher; file not stored in this repo",
+    "original_id": "real_06, page(s) 1",
+    "kind": "digital_broadband",
+    "checked_by_hand": false,
+    "draft_note": "Logo says Connect Broadband; the legal seller is Quadrant Televentures Limited. Previous Outstanding Balance 8,091 is a trap: not part of this invoice's total.",
+    "review": "Read twice on 2026-10-31, with close-ups for unclear values; sums tested. Not yet confirmed by a person."
+  }
+}

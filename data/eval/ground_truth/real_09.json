@@ -1,0 +1,30 @@
+{
+  "vendor_name": "Mastersoft ERP Solutions Pvt Ltd",
+  "invoice_number": "FEB/052/2019-20",
+  "invoice_date": "2020-02-22",
+  "currency": "INR",
+  "line_items": [
+    {
+      "description": "Annual Technical Support For the session 2019 - 20",
+      "quantity": 0.0,
+      "unit_price": 82984.0,
+      "amount": 82984.0
+    }
+  ],
+  "subtotal": 82984.0,
+  "discount": null,
+  "service_charge": null,
+  "tax": 14937.12,
+  "total": 97921.0,
+  "vendor_gstin": "27AAJCM7667D1Z4",
+  "expected_status": "ok",
+  "_meta": {
+    "source": "Published by Bhavan's Vivekananda College, Secunderabad (NAAC evidence); link in data/real_sources.json",
+    "licence": "Copyright of the publisher; file not stored in this repo",
+    "original_id": "real_09, page(s) 2",
+    "kind": "scan_igst",
+    "checked_by_hand": false,
+    "draft_note": "Interstate: IGST only. Quantity is printed as 0.00 although the amount is 82,984: recorded as printed. Round-off -0.12.",
+    "review": "Read twice on 2026-10-31, with close-ups for unclear values; sums tested. Not yet confirmed by a person."
+  }
+}
